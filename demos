@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site Title - Demos</title>
+    <!-- Same styles as index.html -->
+</head>
+<body>
+
+<header>
+    <h1>Your Site Title - Demos</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="essays.html">Essays</a>
+    <a href="archive.html">Archive</a>
+</nav>
+
+<section>
+    <h2>Demos</h2>
+    <!-- Add your demo content here -->
+    <div class="post">
+        <h3><a href="#">Demo Title 1</a></h3>
+        <p>This is demo 1.</p>
+    </div>
+    <div class="post">
+        <h3><a href="#">Demo Title 2</a></h3>
+        <p>This is demo 2.</p>
+    </div>
+    <!-- Add more demos as needed -->
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Site Name</p>
+</footer>
+
+</body>
+</html>
