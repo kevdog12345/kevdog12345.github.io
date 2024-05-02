@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Site Title</title>
+</head>
+<body>
+
+<header>
+    <h1>Your Site Title</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="demos.html">Demos</a>
+    <a href="essays.html">Essays</a>
+    <a href="archive.html">Archive</a>
+    <a href="questions.html">Questions</a>
+</nav>
+
+<section>
+    <h2>Submit a Question</h2>
+    <form id="questionForm">
+        <label for="question">Your Question:</label><br>
+        <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Your Site Name</p>
+</footer>
+
+<!-- Script to handle form submission -->
+<script>
+    document.getElementById("questionForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        var question = document.getElementById("question").value; // Get the value of the question textarea
+        // Here, you can handle the question submission, for example, by sending it to your email or database
+        console.log("Question submitted:", question);
+        alert("Your question has been submitted. Thank you!");
+        document.getElementById("questionForm").reset(); // Reset the form
+    });
+</script>
+
+</body>
+</html>
