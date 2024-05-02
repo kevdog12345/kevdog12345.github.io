@@ -1,36 +1,40 @@
 /* styles.css */
 
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f8f8f8; /* Light gray background */
     color: #333; /* Dark gray text */
+    line-height: 1.6;
 }
 
 header {
-    background-color: #ff6f61; /* Coral header */
+    background-color: #333; /* Dark gray header */
     padding: 20px;
     text-align: center;
     color: #fff; /* White text */
 }
 
 nav {
-    background-color: #ffd166; /* Yellow navigation */
+    background-color: #444; /* Gray navigation */
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #333; /* Dark gray text */
+    color: #fff; /* White text */
     text-decoration: none;
     padding: 10px;
-    transition: background-color 0.3s; /* Smooth transition for background color change */
 }
 
 nav a:hover {
-    background-color: #ffbf69; /* Lighter yellow on hover */
+    background-color: #555; /* Darker gray on hover */
 }
 
 section {
@@ -38,25 +42,10 @@ section {
 }
 
 footer {
-    background-color: #70c1b3; /* Turquoise footer */
+    background-color: #333; /* Dark gray footer */
     padding: 10px;
     text-align: center;
     color: #fff; /* White text */
 }
 
-/* Page-specific styles */
-h1, h2, h3 {
-    color: #ff6f61; /* Coral headings */
-}
-
-a {
-    color: #ff6f61; /* Coral hyperlinks */
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline; /* Underline hyperlinks on hover */
-}
-
-/* Add your additional styles here */
 
