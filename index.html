@@ -20,29 +20,13 @@
 </nav>
 
 <section>
-    <h2>Submit a Question</h2>
-    <form id="questionForm">
-        <label for="question">Your Question:</label><br>
-        <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
-        <input type="submit" value="Submit">
-    </form>
+    <h2>Welcome to Your Site</h2>
+    <p>This is the home page of your website. You can navigate to other pages using the links above.</p>
 </section>
 
 <footer>
     <p>&copy; 2024 Your Site Name</p>
 </footer>
-
-<!-- Script to handle form submission -->
-<script>
-    document.getElementById("questionForm").addEventListener("submit", function(event) {
-        event.preventDefault(); // Prevent the default form submission
-        var question = document.getElementById("question").value; // Get the value of the question textarea
-        // Here, you can handle the question submission, for example, by sending it to your email or database
-        console.log("Question submitted:", question);
-        alert("Your question has been submitted. Thank you!");
-        document.getElementById("questionForm").reset(); // Reset the form
-    });
-</script>
 
 </body>
 </html>
