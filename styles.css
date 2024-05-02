@@ -5,32 +5,32 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa; /* Light gray background */
+    background-color: #f8f8f8; /* Light gray background */
     color: #333; /* Dark gray text */
 }
 
 header {
-    background-color: #007bff; /* Blue header */
+    background-color: #ff6f61; /* Coral header */
     padding: 20px;
     text-align: center;
     color: #fff; /* White text */
 }
 
 nav {
-    background-color: #0056b3; /* Dark blue navigation */
+    background-color: #ffd166; /* Yellow navigation */
     padding: 10px;
     text-align: center;
 }
 
 nav a {
-    color: #fff; /* White text */
+    color: #333; /* Dark gray text */
     text-decoration: none;
     padding: 10px;
     transition: background-color 0.3s; /* Smooth transition for background color change */
 }
 
 nav a:hover {
-    background-color: #00418c; /* Darker blue on hover */
+    background-color: #ffbf69; /* Lighter yellow on hover */
 }
 
 section {
@@ -38,7 +38,7 @@ section {
 }
 
 footer {
-    background-color: #007bff; /* Blue footer */
+    background-color: #70c1b3; /* Turquoise footer */
     padding: 10px;
     text-align: center;
     color: #fff; /* White text */
@@ -46,11 +46,11 @@ footer {
 
 /* Page-specific styles */
 h1, h2, h3 {
-    color: #007bff; /* Blue headings */
+    color: #ff6f61; /* Coral headings */
 }
 
 a {
-    color: #007bff; /* Blue hyperlinks */
+    color: #ff6f61; /* Coral hyperlinks */
     text-decoration: none;
 }
 
@@ -59,3 +59,4 @@ a:hover {
 }
 
 /* Add your additional styles here */
+
